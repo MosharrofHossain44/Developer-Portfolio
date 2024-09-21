@@ -167,7 +167,7 @@ p{
     align-items: center;
 }
 
-.skills .skill{
+.skill{
     width: 267px;
     /* height: 377px; */
     border-radius: 5px;
@@ -177,7 +177,7 @@ p{
     
 }
 
-.skills .skill-title{
+.skill-title{
     color: rgb(24, 24, 24);
     font-size: 20px;
     font-weight: 700;
@@ -186,7 +186,7 @@ p{
     text-align: left;
 }
 
-.skills .skill-description{
+.skill-description{
     width: 201px;
     height: 196px;
     font-family: Open Sans;
