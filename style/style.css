@@ -113,3 +113,36 @@ span{
     gap: 30px;
 }
 
+.about-description{
+    width: 1140px;
+    height: 550px;
+    text-align: center;
+    background: rgb(255, 248, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 130px;
+    border-radius: 10px;
+
+}
+.about{
+    background-color: white;
+    width: 827px;
+    height: 288px;
+    /* display: flex;
+    flex-direction: column;
+    gap: 30px; */
+    border: 1px solid black;
+
+}
+
+.about-description .address{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 782px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
