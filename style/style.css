@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .header{
-    width: 100%;
-    height: 837px;
+    width: 1600px;
+    /* height: 837px; */
     background: rgb(255, 248, 243);
-    background-image: url(../images/developer.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center left, bottom right;
 
 
 
@@ -48,5 +48,68 @@ span{
    height: 64px;
    border-radius: 5px;
    margin-right: 230px;
+   border: none;
 
 }
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 38px 0px 180px;
+    gap: 163px;
+}
+.header .text-container{
+    max-width: 585px;
+    /* height: 356px;
+    margin: 297px 785px 184px 230px; */
+    /* background-color: darkslategray; */
+    /* margin-left: 180px; */
+}
+
+.bg-img{
+    width: 584px;
+    /* margin-right: 38px; */
+}
+.addressing{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    width: 177px;
+    height: 61px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+
+.header .name{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    margin: 0px;
+    text-align: left;
+
+}
+.btn2{
+    background-color: #FD6E0A;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+
+.btn3{
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+}
+.btn-container{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+}
+
