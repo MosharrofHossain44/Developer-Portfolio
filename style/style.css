@@ -129,11 +129,16 @@ span{
     background-color: white;
     width: 827px;
     height: 288px;
+    padding: 10px;
     /* display: flex;
     flex-direction: column;
     gap: 30px; */
     border: 1px solid black;
 
+}
+.about h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .about-description .address{
@@ -158,6 +163,9 @@ span{
 }
 p{
     color: rgb(117, 117, 117); 
+}
+.what-i-do{
+  margin-bottom: 40px;  
 }
 
 .skills{
@@ -195,4 +203,70 @@ p{
     line-height: 28px;
     letter-spacing: 0%;
     text-align: left;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1022px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-top: 130px;
+}
+
+.h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-bottom: 127px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.education, .experience {
+    width: 45%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.entry {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.cv-btn{
+    background-color: #FD6E0A;
+    width: 180px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+  
+}
+.btn-class{
+    text-align: center;
+    margin-top: 25px;
 }
