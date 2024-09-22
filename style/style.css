@@ -269,4 +269,51 @@ p {
 .btn-class{
     text-align: center;
     margin-top: 25px;
+
+}
+
+.footer .footer-content{
+    width: 562px;
+    margin-left: 230px;
+    /* margin-top: 198px; */
+    /* height: 200px; */
+
+}
+
+.footer{
+    width: 1600px;
+    height: 780px;
+    display: flex;
+    background: rgb(255, 248, 243);
+    justify-content: center;
+    align-items: center;
+    gap: 117px;
+
+}
+.footer .input{
+    width: 461px;
+    height: 64px;
+    /* position: absolute; */
+}
+
+.footer .comment-box{
+    width: 461px;
+    height: 180px;
+    background: rgb(255, 255, 255);
+
+}
+.input, .comment-box{
+    border: none;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.footer .submit-btn{
+    width: 150px;
+    height: 64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    margin-left: 0;
+    border: none;
 }
